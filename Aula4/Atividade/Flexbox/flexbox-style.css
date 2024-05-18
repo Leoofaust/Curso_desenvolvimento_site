@@ -1,0 +1,27 @@
+.area_flexbox {
+    display: flex;
+    background-color: rgb(0, 48, 207);
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px
+    ;
+}
+
+.bloco {
+   
+    height: 10rem;
+    width: 10rem;
+    border: solid 2px black;
+}
+
+.bloco-impar {
+background-color: rgb(255, 0, 200);
+height: 10rem;
+}
+
+.bloco-par {
+background-color: rgb(255, 251, 0);
+height: 10rem;
+}

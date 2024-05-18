@@ -1,0 +1,151 @@
+@import url(../../reset.css);
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #201658;
+    height: 10rem;
+    padding: 8px;
+    align-items: center;
+    
+a {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+
+}
+.logo_navegacao {
+    display: flex;
+    height: 80%;
+    align-items: center;
+    text-align: center;
+}
+.navegacao a {
+    font-size: 20px;
+    margin-left: 11px;
+}
+.navegacao a:hover {
+    color: #00e1ff;
+    transform: scale(0.8);
+}
+.navegacao {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: end;
+    font-weight: 550;
+    padding: 2%;
+
+
+}
+.navegacao a:nth-child(1) {
+    text-decoration: underline;
+}
+
+
+
+
+
+body {
+    background-color: #1017fc;
+}
+h1 {
+    text-align: center;
+}
+
+.videos {
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 15px;
+    row-gap: 30px;
+    margin: auto;
+    width: 80%;
+    grid-template-rows: 40rem auto;
+
+}
+button {
+    background-color: rgb(255, 0, 0);
+    padding: 10px ;
+}
+.videos-destaque {
+   
+    border-radius: 15px;
+
+}
+.videos-destaque__cartao{
+    height: 40rem;
+    background-color: hsl(246, 61%, 16%);
+    
+
+
+}
+.videos-destaque__cartao img {
+    width: 100%;
+    height: 70%;
+    border-radius: 15px 15px 0 0;
+
+}
+
+
+.videos-destaque__cartao__conteudo {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.videos-recentes-cartao {
+    align-items: center;
+    background-color: hsl(246, 61%, 16%);
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    height: 5rem;
+    border-radius: 15px;
+}
+
+.videos-recentes-cartao img{
+    grid-row: span 2;
+    width: auto;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.videos-recentes > :nth-child(2){
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    overflow: auto;
+    height: 40rem;
+}
+
+.videos-mais-vistos {
+    display: grid;      
+    grid-column: auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+main {
+    background-color: #1D24CA;
+}
